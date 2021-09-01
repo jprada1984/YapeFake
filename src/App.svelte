@@ -11,7 +11,9 @@
 			</div>
 		</div>
 		<h4>Recibe pagos por {name}</h4>
-		<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+		<div class="footer">
+			<h3>Ingresa tu clave Yape</h3>
+		</div>
 	</div>
 </main>
 
