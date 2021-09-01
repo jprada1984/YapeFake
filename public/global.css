@@ -100,9 +100,16 @@ button:focus {
 .divqrsec{
 	width: 43.05vw;
 	height: 43.05vw;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.4);
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	background-color: #fff;
-	border-radius: 12px;
+	border-radius: 1.94vw;
+}
+
+h4 {
+	color: rgb(208,160,218);
+	font-size: 3.19vw;
+	font-weight: normal;
 }
