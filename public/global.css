@@ -82,13 +82,13 @@ button:focus {
 	padding-top: 1rem;
 	margin: 0;
 	position: relative;
-	height: 5vw;
+	height: 36px;
 	width: 100%;
 }
 
 .imgquestion{
-	height: 5vw;
-	width: 5vw;
+	height: 36px;
+	width: 36px;
 	float: right;
 	margin-right: 1rem;
 }
