@@ -77,16 +77,16 @@ button:focus {
 	background-color: #742284;
 	border: 0;
 	padding: 0;
-	padding-top: 1.5rem;
+	padding-top: 1.2rem;
 	margin: 0;
 	position: relative;
-	height: 1.5rem;
+	height: 1.7rem;
 	width: 100%;
 }
 
 .imgquestion{
-	height: 1.5rem;
-	width: 1.5rem;
+	height: 1.7rem;
+	width: 1.7rem;
 	float: right;
-	margin-right: 1.5rem;
+	margin-right: 1.2rem;
 }
