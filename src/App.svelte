@@ -5,6 +5,11 @@
 <main>
 	<div class="divlogin">
 		<div class="divquestion"><img class="imgquestion" alt="question" src="/question.svg" height="36px" width="36px" /></div>
+		<div class="divqrpri">
+			<div class="divqrsec">
+				hola
+			</div>
+		</div>
 		<h1>Hello {name}!</h1>
 		<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 	</div>
