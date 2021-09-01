@@ -2,12 +2,12 @@ html, body {
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background-color: hsl(290, 74%, 33%);
+	background-color: #742284;
 }
 
 body {
 	color: #333;
-	background-color: hsl(290, 74%, 33%);
+	background-color: #742284;
 	margin: 0;
 	padding: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -64,7 +64,7 @@ button:focus {
 }
 
 .divlogin {
-	background-color: hsl(290, 74%, 33%);
+	background-color: #742284;
 	border: 0;
 	padding: 0;
 	margin: 0;
@@ -74,19 +74,19 @@ button:focus {
 }
 
 .divquestion{
-	background-color: hsl(290, 74%, 33%);
+	background-color: #742284;
 	border: 0;
 	padding: 0;
-	padding-top: 35px;
+	padding-top: 32px;
 	margin: 0;
 	position: relative;
-	height: 35px;
+	height: 32px;
 	width: 100%;
 }
 
 .imgquestion{
-	height: 35px;
-	width: 35px;
+	height: 32px;
+	width: 32px;
 	float: right;
-	margin-right: 35px;
+	margin-right: 32px;
 }
