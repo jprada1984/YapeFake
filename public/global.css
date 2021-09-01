@@ -79,7 +79,7 @@ button:focus {
 	background-color: #742284;
 	border: 0;
 	padding: 0;
-	padding-top: 2.3vw;
+	padding-top: 2.35vw;
 	margin: 0;
 	height: 5vw;
 	width: 100%;
@@ -110,6 +110,6 @@ button:focus {
 
 h4 {
 	color: rgb(208,160,218);
-	font-size: 3.19vw;
+	font-size: 3.33vw;
 	font-weight: normal;
 }
