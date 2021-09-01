@@ -16,7 +16,15 @@
 	<link rel="manifest" href="/manifest.json">
 
 	<script defer src='/build/bundle.js'></script>
-	
+	<script>
+		if (window.devicePixelRatio == 1.5) {
+      		alert("This is a high-density screen");
+    	} else if (window.devicePixelRatio == 0.75) {
+      		alert("This is a low-density screen");
+    	} else {
+			alert(window.devicePixelRatio);
+		}
+	</script>
 </head>
 
 <body>
