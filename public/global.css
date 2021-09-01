@@ -117,7 +117,7 @@ h4 {
 h3 {
 	color: rgb(208,160,218);
 	font-size: 3.89vw;
-	font-weight: 500;
+	font-weight: bold;
 	padding: 0;
 	margin: 0;
 }
@@ -128,5 +128,38 @@ h3 {
 	bottom: 0;
 	height: 88.89vw;
 	width: 100vw;
-	background-color: #333;
+}
+
+.divclave{
+	margin: 0;
+	height: 3.34vw;
+	width: 100%;
+}
+
+.ulclave{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 4.17vw;
+}
+
+.liclave{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	height: 3.34vw;
+	width: 3.34vw;
+	margin-right: 5vw;
+	background-color: rgb(140,61,153);
+	border-radius: 50%;
+}
+
+.liclaveu{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	height: 3.34vw;
+	width: 3.34vw;
+	background-color: rgb(140,61,153);
+	border-radius: 50%;
 }

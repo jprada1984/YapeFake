@@ -13,6 +13,16 @@
 		<h4>Recibe pagos por {name}</h4>
 		<div class="footer">
 			<h3>Ingresa tu clave Yape</h3>
+			<div class="clavediv">
+				<ul class="ulclave">
+					<li class="liclave"></li>
+					<li class="liclave"></li>
+					<li class="liclave"></li>
+					<li class="liclave"></li>
+					<li class="liclave"></li>
+					<li class="liclaveu"></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </main>
