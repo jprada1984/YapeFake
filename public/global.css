@@ -79,7 +79,7 @@ button:focus {
 	background-color: #742284;
 	border: 0;
 	padding: 0;
-	padding-top: 1rem;
+	padding-top: 4.72vw;
 	margin: 0;
 	height: 5vh;
 	width: 100%;
@@ -89,12 +89,12 @@ button:focus {
 	height: 5vh;
 	width: 5vw;
 	float: right;
-	margin-right: 1rem;
+	margin-right: 4.72vw;
 }
 
 .divqrpri{
 	width: 100%;
-	padding-top: 6.5rem;
+	padding-top: 18.2vw;
 }
 
 .divqrsec{
