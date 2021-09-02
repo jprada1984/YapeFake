@@ -15,13 +15,33 @@
 			<h3>Ingresa tu clave Yape</h3>
 			<div class="clavediv">
 				<ul class="ulclave">
-					<li class="liclave"></li>
-					<li class="liclave"></li>
-					<li class="liclave"></li>
-					<li class="liclave"></li>
-					<li class="liclave"></li>
 					<li class="liclaveu"></li>
+					<li class="liclaveu"></li>
+					<li class="liclaveu"></li>
+					<li class="liclave"></li>
+					<li class="liclave"></li>
+					<li class="liclave"></li>
 				</ul>
+			</div>
+			<div class="divpadrow1">
+				<a class="pad" href="#4"><p>4</p></a>
+				<a class="pad" href="#1"><p>1</p></a>
+				<a class="pad" href="#2"><p>2</p></a>
+			</div>
+			<div class="divpadrow2">
+				<a class="pad" href="#3"><p>3</p></a>
+				<a class="pad" href="#9"><p>9</p></a>
+				<a class="pad" href="#8"><p>8</p></a>
+			</div>
+			<div class="divpadrow2">
+				<a class="pad" href="#7"><p>7</p></a>
+				<a class="pad" href="#5"><p>5</p></a>
+				<a class="pad" href="#0"><p>0</p></a>
+			</div>
+			<div class="divpadrow2">
+				<div class="padinv"></div>
+				<a class="pad" href="#6"><p>6</p></a>
+				<a class="pad" href="#2"><p>2</p></a>
 			</div>
 		</div>
 	</div>

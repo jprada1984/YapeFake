@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 html, body {
 	position: relative;
 	width: 100vw;
@@ -17,16 +22,16 @@ body {
 }
 
 a {
-	color: rgb(0,100,200);
+	color: rgb(233,206,241);
 	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:visited {
-	color: rgb(0,80,160);
+	color: rgb(233,206,241);
 }
 
 label {
@@ -115,7 +120,7 @@ h4 {
 }
 
 h3 {
-	color: rgb(208,160,218);
+	color: rgb(233,206,241);
 	font-size: 3.89vw;
 	font-weight: bold;
 	padding: 0;
@@ -147,19 +152,95 @@ h3 {
 	padding: 0;
 	margin: 0;
 	display: inline-block;
-	height: 3.34vw;
-	width: 3.34vw;
+	height: 3vw;
+	width: 3vw;
 	margin-right: 5vw;
 	background-color: rgb(140,61,153);
+	border-style: solid;
+	border-color: #742284;
+	border-width: 0.35vw;
 	border-radius: 50%;
+}
+
+.liclave:last-child{
+	margin-right: 0;
 }
 
 .liclaveu{
 	padding: 0;
 	margin: 0;
 	display: inline-block;
-	height: 3.34vw;
-	width: 3.34vw;
-	background-color: rgb(140,61,153);
+	height: 3vw;
+	width: 3vw;
+	margin-right: 5vw;
+	background-color: rgb(36,192,181);
+	border-style: solid;
+	border-color: rgb(36,192,181);
+	border-width: 0.35vw;
 	border-radius: 50%;
+}
+
+.liclaveu:last-child{
+	margin-right: 0;
+}
+
+.divpadrow1{
+	margin: 0;
+	padding: 0;
+	height: 11.10vw;
+	margin-left: 1.3vw;
+	margin-top: 9vw;
+	width: 100vw;
+	margin-bottom: 1.8vw;
+}
+
+.divpadrow2{
+	margin: 0;
+	padding: 0;
+	height: 11.10vw;
+	margin-left: 1.3vw;
+	width: 100vw;
+	margin-bottom: 1.8vw;
+}
+
+.pad{
+	font-size: 4.16vw;
+	font-weight: bold;
+	color: rgb(233,206,241);
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	height: 11.10vw;
+	width: 27.78vw;
+	margin-right: 2.5vw;
+	background-color: rgb(140,61,153);
+	border-radius: 1.94vw;
+}
+
+.padinv{
+	font-size: 4.16vw;
+	font-weight: bold;
+	color: rgb(233,206,241);
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	height: 11.10vw;
+	width: 27.78vw;
+	margin-right: 2.5vw;
+	background-color: #742284;
+	border-radius: 1.94vw;
+}
+
+.pad p{
+	width: 100vw;
+	height: 11.10vw;
+    vertical-align: middle;
+	text-align: center;
+	display: table-cell;
 }
