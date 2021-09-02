@@ -117,6 +117,7 @@ h4 {
 	color: rgb(208,160,218);
 	font-size: 3.33vw;
 	font-weight: normal;
+	margin-top: 4vw;
 }
 
 h3 {
@@ -218,6 +219,7 @@ h3 {
 	margin-right: 2.5vw;
 	background-color: rgb(140,61,153);
 	border-radius: 1.94vw;
+	border: 0;
 }
 
 .padinv{
