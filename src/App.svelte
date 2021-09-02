@@ -43,6 +43,7 @@
 				<button class="pad" href="#6"><p>6</p></button>
 				<a class="pad" href="#2"><p>2</p></a>
 			</div>
+			<h3 class="h3ol">¿Olvidaste tu clave?</h3>
 		</div>
 	</div>
 </main>
