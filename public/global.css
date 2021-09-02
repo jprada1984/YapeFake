@@ -107,6 +107,10 @@ button:not(:disabled):active {
 	display: block;
 	background-color: #fff;
 	border-radius: 1.94vw;
+	background-position: center;
+	background-size: 37.2vw 37.2vw;
+	background-repeat: no-repeat;
+	background-image: url("qr.png");
 }
 
 h4 {
@@ -185,7 +189,7 @@ h3 {
 	margin: 0;
 	padding: 0;
 	height: 11.10vw;
-	margin-left: 1.3vw;
+	margin-left: 0.8vw;
 	margin-top: 9vw;
 	width: 100vw;
 	margin-bottom: 1.8vw;
@@ -195,7 +199,7 @@ h3 {
 	margin: 0;
 	padding: 0;
 	height: 11.10vw;
-	margin-left: 1.3vw;
+	margin-left: 0.8vw;
 	width: 100vw;
 	margin-bottom: 1.8vw;
 }
@@ -212,7 +216,7 @@ h3 {
 	display: inline-block;
 	height: 11.10vw;
 	width: 27.78vw;
-	margin-right: 2.5vw;
+	margin-right: 1.4vw;
 	background-color: rgb(140,61,153);
 	border-radius: 1.94vw;
 	border: 0;
@@ -236,7 +240,7 @@ h3 {
 	display: inline-block;
 	height: 11.10vw;
 	width: 27.78vw;
-	margin-right: 2.5vw;
+	margin-right: 1.4vw;
 	background-color: #742284;
 	border-radius: 1.94vw;
 }
@@ -244,7 +248,7 @@ h3 {
 .pad p{
 	width: 100vw;
 	height: 11.10vw;
-	font-size: 7vw;
+	font-size: 6.5vw;
 	font-weight: 500;
     vertical-align: middle;
 	text-align: center;
@@ -254,4 +258,39 @@ h3 {
 .h3ol{
 	margin-top: 6.8vw;
 	color: rgb(36,192,181);
+}
+
+.imgback{
+	height: 3.19vw;
+	width: 4.02vw;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.padinvback{
+	color: rgb(233,206,241);
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	height: 11.10vw;
+	width: 27.78vw;
+	margin-right: 1.4vw;
+	background-color: #742284;
+	border-radius: 1.94vw;
+	background-image: url("back.svg");
+	background-repeat: no-repeat;
+	background-size: 4.02vw 3.19vw;
+	background-position: center;
+	border: 0;
+}
+
+.padinvback:active{
+	background-color: #742284;
+}
+
+.padinvback:not(:disabled):active {
+	background-color: #742284;
 }

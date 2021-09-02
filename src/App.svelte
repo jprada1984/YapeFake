@@ -6,9 +6,7 @@
 	<div class="divlogin">
 		<div class="divquestion"><img class="imgquestion" alt="question" src="/question.svg" height="36px" width="36px" /></div>
 		<div class="divqrpri">
-			<div class="divqrsec">
-				hola
-			</div>
+			<div class="divqrsec"></div>
 		</div>
 		<h4>Recibe pagos por {name}</h4>
 		<div class="footer">
@@ -41,7 +39,7 @@
 			<div class="divpadrow2">
 				<div class="padinv"></div>
 				<button class="pad" href="#6"><p>6</p></button>
-				<a class="pad" href="#2"><p>2</p></a>
+				<button class="padinvback" href="#back"></button>
 			</div>
 			<h3 class="h3ol">¿Olvidaste tu clave?</h3>
 		</div>
