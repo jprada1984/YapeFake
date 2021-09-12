@@ -42,7 +42,7 @@
 				</div>
 			</div>
 			<div class="divmonto">
-				<h3 class="h3montone">-15.50</h3>
+				<h3 class="h3montone">- S/ 15.50</h3>
 			</div>
 		</div>
 		<div class="divitem">
@@ -53,7 +53,7 @@
 				</div>
 			</div>
 			<div class="divmonto">
-				<h3 class="h3montone">-15.50</h3>
+				<h3 class="h3montone">- S/ 15.50</h3>
 			</div>
 		</div>
 		<div class="divitem">
@@ -64,7 +64,7 @@
 				</div>
 			</div>
 			<div class="divmonto">
-				<h3 class="h3monto">16.50</h3>
+				<h3 class="h3monto">S/ 16.50</h3>
 			</div>
 		</div>
 		<div class="divitem">
@@ -75,7 +75,7 @@
 				</div>
 			</div>
 			<div class="divmonto">
-				<h3 class="h3montone">-15.50</h3>
+				<h3 class="h3montone">- S/ 15.50</h3>
 			</div>
 		</div>
 		<div class="divitem">
@@ -86,7 +86,7 @@
 				</div>
 			</div>
 			<div class="divmonto">
-				<h3 class="h3monto">16.50</h3>
+				<h3 class="h3monto">S/ 16.50</h3>
 			</div>
 		</div>
 		<div class="divitem">
@@ -97,7 +97,7 @@
 				</div>
 			</div>
 			<div class="divmonto">
-				<h3 class="h3montone">-15.50</h3>
+				<h3 class="h3montone">- S/ 15.50</h3>
 			</div>
 		</div>
 		<div class="divitem">
@@ -108,7 +108,7 @@
 				</div>
 			</div>
 			<div class="divmonto">
-				<h3 class="h3monto">16.50</h3>
+				<h3 class="h3monto">S/ 16.50</h3>
 			</div>
 		</div>
 		<div class="divitem">
@@ -119,7 +119,7 @@
 				</div>
 			</div>
 			<div class="divmonto">
-				<h3 class="h3montone">-15.50</h3>
+				<h3 class="h3montone">- S/ 15.50</h3>
 			</div>
 		</div>
 		<div class="divitem">
@@ -130,7 +130,7 @@
 				</div>
 			</div>
 			<div class="divmonto">
-				<h3 class="h3monto">16.50</h3>
+				<h3 class="h3monto">S/ 16.50</h3>
 			</div>
 		</div>
 	</div>
