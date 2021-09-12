@@ -33,6 +33,9 @@
 			<h3 class="h3vertodo">Ver todos</h3>
 		</div>
 	</div>
+	<div class="divprilista">
+		hola
+	</div>
 	<div class="divprifooter">
 		<div class="divesca">
 			<button on:click={() => numero(4)} class="botonesca"><img class="imgqr" src="qr.svg" alt="botonescanear"/>Escanear QR</button>

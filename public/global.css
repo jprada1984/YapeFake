@@ -325,8 +325,9 @@ h3 {
 
 .divsaldo{
 	margin-left: 4.72vw;
-	margin-top: 3.75vw;
-	margin-bottom: 3.75vw;
+	height: 19.44vw;
+	display: flex;
+	align-items: center;
 }
 .botonsaldo{
 	padding: 4.16vw;
@@ -510,11 +511,11 @@ h3 {
 }
 
 .botonesca:active{
-	background-color: #823291;
+	background-color: rgb(245,255,254);
 }
 
 .botonesca:not(:disabled):active {
-	background-color: #823291;
+	background-color: rgb(245,255,254);
 }
 
 .imgqr{
@@ -541,15 +542,24 @@ h3 {
 }
 
 .botonyapear:active{
-	background-color: #823291;
+	background-color: rgb(0,166,146);
+	border: 0.5vw solid rgb(0,166,146);
 }
 
 .botonyapear:not(:disabled):active {
-	background-color: #823291;
+	background-color: rgb(0,166,146);
+	border: 0.5vw solid rgb(0,166,146);
 }
 
 .imgflecha{
 	width: 4.44vw;
 	margin-right: 3vw;
 	height: 4.44vw;
+}
+
+.divprilista{
+	height: calc(100vh - 8.33vw - 19.44vw - 17.78vw - 13.89vw - 18.89vw);
+	background-color: #ccc;
+	padding: 0 4.72vw;
+	width: 90.56vw;
 }
