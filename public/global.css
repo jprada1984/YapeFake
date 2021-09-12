@@ -634,3 +634,16 @@ h3 {
 	width: 100vw;
 	height: 100vh;
 }
+
+.divcamaratexto{
+	text-align: left;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.divcamaratexto h3{
+	font-size: 3.6vw;
+	font-weight: 400;
+}

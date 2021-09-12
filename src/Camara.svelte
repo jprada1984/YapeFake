@@ -25,7 +25,7 @@
   
         // Only applies to continuous mode. Whether to actively scan when the tab is not active.
         // When false, this reduces CPU usage when the tab is not active. Default true.
-        backgroundScan: true,
+        backgroundScan: false,
   
         // Only applies to continuous mode. The period, in milliseconds, before the same QR code
         // will be recognized in succession. Default 5000 (5 seconds).
@@ -57,4 +57,7 @@
 
 <div class="divcamara">
     <video height="100%" id="preview"></video>
+    <div class="divcamaratexto">
+        <h3>Coloque un código de barras en el interior del rectángulo del visor para escanear.</h3>
+    </div>
 </div>
