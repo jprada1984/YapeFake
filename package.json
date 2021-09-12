@@ -19,6 +19,9 @@
     "svelte-spa-router": "latest"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "bufferutil": "^4.0.1",
+    "sirv-cli": "^1.0.0",
+    "svelte-qr-scanner": "^1.1.0",
+    "utf-8-validate": "^5.0.2"
   }
 }
