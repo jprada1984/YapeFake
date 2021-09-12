@@ -1,6 +1,8 @@
 <script>
     import { onMount } from 'svelte';
-
+    import { push } from "svelte-spa-router";
+    import { QRcodigo } from './stores.js';
+    
     onMount(async () => {
         let opts = {
         // Whether to scan continuously for QR codes. If false, use scanner.scan() to manually scan.
@@ -37,7 +39,9 @@
 		let scanner = new Instascan.Scanner(opts);
         scanner.addListener('scan', function (content) {
             console.log(content);
-            alert(content);
+            QRcodigo.set(content);
+            scanner.stop();
+            push('/Yapear');
         });
         Instascan.Camera.getCameras().then(function (cameras) {
             if (cameras.length > 0) {
@@ -52,5 +56,5 @@
 </script>
 
 <div class="divcamara">
-    <video id="preview"></video>
+    <video height="100%" id="preview"></video>
 </div>
