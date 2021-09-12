@@ -25,4 +25,12 @@
 			<button on:click={() => numero(4)} class="botondonar">Donar</button>
 		</div>
 	</div>
+	<div class="divmovi">
+		<div class="divulti">
+			<h3 class="h3ulti">Últimos Movimientos</h3>
+		</div>
+		<div class="divvertodo">
+			<h3 class="h3vertodo">Ver todos</h3>
+		</div>
+	</div>
 </div>

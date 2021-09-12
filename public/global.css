@@ -359,6 +359,8 @@ h3 {
 	background-color: #fff;
 	padding: 0 4.72vw;
 	width: 90.56vw;
+	border: 0;
+	border-bottom: 1.5px solid rgb(220,220,220);
 }
 
 .divdonarnombre{
@@ -380,11 +382,13 @@ h3 {
 .h3donarnombre{
 	color: rgb(189,52,62);
 	margin-bottom: 0.5vw;
+	font-size: 3.6vw;
 }
 
 .h3donarlema{
 	color: rgb(152,152,152);
 	font-weight: 400;
+	font-size: 3.6vw;
 }
 
 .divdonaricono{
@@ -407,7 +411,7 @@ h3 {
 }
 
 .botondonar{
-	padding: 3.3vw;
+	padding: 2.8vw 3.3vw;
 	font-size: 3.6vw;
 	font-weight: 500;
 	color: rgb(255,255,255);
@@ -424,4 +428,36 @@ h3 {
 
 .botondonar:not(:disabled):active {
 	background-color: #823291;
+}
+
+.divmovi{
+	height: 13.89vw;
+	background-color: #fff;
+	padding: 0 4.72vw;
+	width: 90.56vw;
+	border-bottom: 1.5px solid rgb(220,220,220);
+}
+
+.divulti{
+	height: 13.89vw;
+	display: flex;
+	float: left;
+	align-items: center;
+}
+
+.divvertodo{
+	height: 13.89vw;
+	display: flex;
+	float: right;
+	align-items: center;
+}
+
+.h3ulti{
+	font-size: 3.6vw;
+	color: #742284;
+}
+
+.h3vertodo{
+	font-size: 3.6vw;
+	color: rgb(36,192,181);
 }
