@@ -8,6 +8,9 @@
 	];
 </script>
 
-<div class="divlogin">
-	hola
+<div class="divprincipal">
+	<div class="divbienvenida"><h3 class="h3bien">¡Bienvenido, yapero!</h3></div>
+	<div class="divsaldo">
+		<button on:click={() => numero(4)} class="botonsaldo"><p>Mostrar Saldo</p></button>
+	</div>
 </div>

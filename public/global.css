@@ -294,3 +294,68 @@ h3 {
 .padinvback:not(:disabled):active {
 	background-color: #742284;
 }
+
+.divprincipal {
+	background-color: #742284;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+.divbienvenida{
+	height: 8.33vw;
+	display: block;
+	background-color: #333;
+	padding-left: 4.72vw;
+	background-image: url("menu.svg");
+	background-repeat: no-repeat;
+	background-position: 4.72vw center;
+}
+
+.h3bien{
+	color: rgb(255,255,255);
+	align-items: center;
+	vertical-align: middle;
+	display: table-cell;
+	width: 100vw;
+	height: 8.33vw;
+}
+
+.divsaldo{
+	margin-left: 4.72vw;
+	margin-top: 3.75vw;
+	margin-bottom: 3.75vw;
+}
+.botonsaldo{
+	height: 11.53vw;
+	width: 39.86vw;
+	font-size: 3.4vw;
+	font-weight: bold;
+	color: rgb(255,255,255);
+	margin: 0;
+	padding: 0;
+	display: block;
+	background-color: rgb(140,61,153);
+	border-radius: 1.94vw;
+	border: 0;
+}
+
+.botonsaldo p{
+	width: 100vw;
+	height: 11.10vw;
+	font-size: 3.4vw;
+	font-weight: 500;
+    vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+}
+
+.botonsaldo:active{
+	background-color: #823291;
+}
+
+.botonsaldo:not(:disabled):active {
+	background-color: #823291;
+}
