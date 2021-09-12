@@ -296,7 +296,7 @@ h3 {
 }
 
 .divprincipal {
-	background-color: #742284;
+	background-color: #fff;
 	border: 0;
 	padding: 0;
 	margin: 0;
@@ -306,6 +306,7 @@ h3 {
 
 .divbienvenida{
 	height: 8.33vw;
+	background-color: #742284;
 	display: block;
 	padding-left: 4.72vw;
 	background-image: url("menu.svg");
@@ -324,7 +325,8 @@ h3 {
 }
 
 .divsaldo{
-	margin-left: 4.72vw;
+	background-color: #742284;
+	padding-left: 4.72vw;
 	height: 19.44vw;
 	display: flex;
 	align-items: center;
@@ -390,7 +392,7 @@ h3 {
 }
 
 .h3donarlema{
-	color: rgb(152,152,152);
+	color: rgb(157,156,161);
 	font-weight: 400;
 	font-size: 3.6vw;
 }
@@ -439,7 +441,6 @@ h3 {
 	background-color: #fff;
 	padding: 0 4.72vw;
 	width: 90.56vw;
-	border-bottom: 1.5px solid rgb(220,220,220);
 }
 
 .divulti{
@@ -558,9 +559,61 @@ h3 {
 }
 
 .divprilista{
+	box-sizing: border-box;
 	height: calc(100vh - 8.33vw - 19.44vw - 17.78vw - 13.89vw - 18.89vw);
-	background-color: #ccc;
-	padding: 0 4.72vw;
-	width: 90.56vw;
+	background-color: #fff;
+	margin-left: 4.72vw;
+	width: 95.28vw;
 	overflow-y: scroll;
+	border-top: 1.5px solid rgb(220,220,220);
+}
+
+.divitem{
+	height: 17.5vw;
+	width: 95.28vw;
+	border-bottom: 1.5px solid rgb(220,220,220);
+}
+
+.divdes{
+	height: 17.5vw;
+	width: 60vw;
+	display: flex;
+	float: left;
+	align-items: center;
+}
+
+.divdes1{
+	width: 60vw;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.divmonto{
+	height: 17.5vw;
+	width: 30.56vw;
+	display: flex;
+	float: right;
+	align-items: center;
+	justify-content: right;
+	margin-right: 4.72vw;
+}
+
+.h3nombre{
+	font-size: 3.6vw;
+	color: rgb(34,45,65);
+}
+
+.h3fecha{
+	font-size: 3.6vw;
+	color: rgb(157,156,161);
+}
+
+.h3montone{
+	font-size: 3.6vw;
+	color: rgb(176,18,76);
+}
+
+.h3monto{
+	font-size: 3.6vw;
+	color: rgb(34,45,65);
 }

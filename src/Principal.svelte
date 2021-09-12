@@ -34,48 +34,105 @@
 		</div>
 	</div>
 	<div class="divprilista">
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
-		<p>hola</p>
-		<p>como</p>
+		<div class="divitem">
+			<div class="divdes">
+				<div class="divdes1">
+					<h3 class="h3nombre">Maribel Estela Condori</h3>
+					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
+				</div>
+			</div>
+			<div class="divmonto">
+				<h3 class="h3montone">-15.50</h3>
+			</div>
+		</div>
+		<div class="divitem">
+			<div class="divdes">
+				<div class="divdes1">
+					<h3 class="h3nombre">Maribel Estela Condori</h3>
+					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
+				</div>
+			</div>
+			<div class="divmonto">
+				<h3 class="h3montone">-15.50</h3>
+			</div>
+		</div>
+		<div class="divitem">
+			<div class="divdes">
+				<div class="divdes1">
+					<h3 class="h3nombre">Maribel Estela Condori</h3>
+					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
+				</div>
+			</div>
+			<div class="divmonto">
+				<h3 class="h3monto">16.50</h3>
+			</div>
+		</div>
+		<div class="divitem">
+			<div class="divdes">
+				<div class="divdes1">
+					<h3 class="h3nombre">Maribel Estela Condori</h3>
+					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
+				</div>
+			</div>
+			<div class="divmonto">
+				<h3 class="h3montone">-15.50</h3>
+			</div>
+		</div>
+		<div class="divitem">
+			<div class="divdes">
+				<div class="divdes1">
+					<h3 class="h3nombre">Maribel Estela Condori</h3>
+					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
+				</div>
+			</div>
+			<div class="divmonto">
+				<h3 class="h3monto">16.50</h3>
+			</div>
+		</div>
+		<div class="divitem">
+			<div class="divdes">
+				<div class="divdes1">
+					<h3 class="h3nombre">Maribel Estela Condori</h3>
+					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
+				</div>
+			</div>
+			<div class="divmonto">
+				<h3 class="h3montone">-15.50</h3>
+			</div>
+		</div>
+		<div class="divitem">
+			<div class="divdes">
+				<div class="divdes1">
+					<h3 class="h3nombre">Maribel Estela Condori</h3>
+					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
+				</div>
+			</div>
+			<div class="divmonto">
+				<h3 class="h3monto">16.50</h3>
+			</div>
+		</div>
+		<div class="divitem">
+			<div class="divdes">
+				<div class="divdes1">
+					<h3 class="h3nombre">Maribel Estela Condori</h3>
+					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
+				</div>
+			</div>
+			<div class="divmonto">
+				<h3 class="h3montone">-15.50</h3>
+			</div>
+		</div>
+		<div class="divitem">
+			<div class="divdes">
+				<div class="divdes1">
+					<h3 class="h3nombre">Maribel Estela Condori</h3>
+					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
+				</div>
+			</div>
+			<div class="divmonto">
+				<h3 class="h3monto">16.50</h3>
+			</div>
+		</div>
 	</div>
 	<div class="divprifooter">
 		<div class="divesca">
