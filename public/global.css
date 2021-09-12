@@ -619,3 +619,13 @@ h3 {
 	font-size: 3.6vw;
 	color: rgb(34,45,65);
 }
+
+.divcamara{
+  	align-items: center;
+	justify-content: center;
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-color: #999;
+}
