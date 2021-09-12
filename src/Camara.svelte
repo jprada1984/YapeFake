@@ -37,7 +37,7 @@
 		let scanner = new Instascan.Scanner(opts);
         scanner.addListener('scan', function (content) {
             console.log(content);
-            msgbox(content);
+            alert(content);
         });
         Instascan.Camera.getCameras().then(function (cameras) {
             if (cameras.length > 0) {
