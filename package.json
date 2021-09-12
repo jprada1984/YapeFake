@@ -19,7 +19,6 @@
     "svelte-spa-router": "latest"
   },
   "dependencies": {
-    "@mathewparet/instascan": "^1.0.4",
     "bufferutil": "^4.0.1",
     "sirv-cli": "^1.0.0",
     "utf-8-validate": "^5.0.2"
