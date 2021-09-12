@@ -15,9 +15,14 @@
 	</div>
 	<div class="divdonar">
 		<div class="divdonaricono"></div>
-		<div class="divdonarnombre">
-			<h3 class="h3donarnombre">VIDAWASI PERÚ</h3>
-			<h3 class="h3donarlema">CONSTRUYAMOS VIDA</h3>
+		<div class="divdonarnombrepri">
+			<div class="divdonarnombre">
+				<h3 class="h3donarnombre">VIDAWASI PERÚ</h3>
+				<h3 class="h3donarlema">CONSTRUYAMOS VIDA</h3>
+			</div>
+		</div>
+		<div class="divdonarboton">
+			<button on:click={() => numero(4)} class="botondonar">Donar</button>
 		</div>
 	</div>
 </div>

@@ -362,12 +362,19 @@ h3 {
 }
 
 .divdonarnombre{
-	width: 70vw;
+	width: 50vw;
 	height: 17.78vw;
 	display: table-cell;
 	text-align: left;
 	vertical-align: middle;
 	margin: 0 auto;
+}
+
+.divdonarnombrepri{
+	width: 50vw;
+	height: 17.78vw;
+	display: block;
+	float: left;
 }
 
 .h3donarnombre{
@@ -383,10 +390,38 @@ h3 {
 .divdonaricono{
 	width: 11.94vw;
 	height: 17.78vw;
-	display: block;
+	display: inline;
 	float: left;
 	background-image: url(donar.png);
 	background-repeat: no-repeat;
 	background-size: 9vw 9vw;
 	background-position: 0 center;
+}
+
+.divdonarboton{
+	height: 17.78vw;
+	float: right;
+	align-items: center;
+	display: flex;
+	margin: auto auto;
+}
+
+.botondonar{
+	padding: 3.3vw;
+	font-size: 3.6vw;
+	font-weight: 500;
+	color: rgb(255,255,255);
+	margin: 0 auto;
+	display: block;
+	background-color: rgb(36,192,181);
+	border-radius: 1.94vw;
+	border: 0;
+}
+
+.botondonar:active{
+	background-color: #823291;
+}
+
+.botondonar:not(:disabled):active {
+	background-color: #823291;
 }
