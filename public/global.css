@@ -366,7 +366,7 @@ h3 {
 	padding: 0 4.72vw;
 	width: 90.56vw;
 	border: 0;
-	border-bottom: 1.5px solid rgb(220,220,220);
+	border-bottom: 0.5px solid rgb(230,230,230);
 }
 
 .divdonarnombre{
@@ -565,13 +565,13 @@ h3 {
 	margin-left: 4.72vw;
 	width: 95.28vw;
 	overflow-y: scroll;
-	border-top: 1.5px solid rgb(220,220,220);
+	border-top: 0.5px solid rgb(230,230,230);
 }
 
 .divitem{
 	height: 17.5vw;
 	width: 95.28vw;
-	border-bottom: 1.5px solid rgb(220,220,220);
+	border-bottom: 0.5px solid rgb(230,230,230);
 }
 
 .divdes{
@@ -601,6 +601,7 @@ h3 {
 .h3nombre{
 	font-size: 3.6vw;
 	color: rgb(34,45,65);
+	margin-bottom: 0.8vw;
 }
 
 .h3fecha{
