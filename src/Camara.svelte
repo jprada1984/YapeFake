@@ -1,19 +1,8 @@
+<div class="divcamara">
+    <video id="previewcamara"></video>
+</div>
+
 <script>
-
-	import { push } from "svelte-spa-router";
-
-    let things = [
-		{ id: 1, color: 'darkblue' },
-		{ id: 2, color: 'indigo' },
-		{ id: 3, color: 'deeppink' },
-		{ id: 4, color: 'salmon' },
-		{ id: 5, color: 'gold' }
-	];
-
-	function iraqr(){
-		push('/Camara');
-	}
-
     let opts = {
         // Whether to scan continuously for QR codes. If false, use scanner.scan() to manually scan.
         // If true, the scanner emits the "scan" event when a QR code is scanned. Default true.
@@ -53,7 +42,6 @@
     });
     Instascan.Camera.getCameras().then(function (cameras) {
         if (cameras.length > 0) {
-            activeCameraId = cameras[0].id;
             scanner.start(cameras[0]);
         } else {
             console.error('No cameras found.');
@@ -63,7 +51,3 @@
         console.error(e);
     });
 </script>
-
-<div class="divcamara">
-    <video id="previewcamara"></video>
-</div>
