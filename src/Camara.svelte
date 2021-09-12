@@ -1,9 +1,16 @@
-<script>
-    import QRScanner from 'svelte-qr-scanner'
-</script>
-
 <div class="divcamara">
-    <QRScanner height="100" width="100"/>
-        <div class="placeholder">No cameras loaded!</div>
-    </QRScanner>
+    <video id="preview"></video>
+    <script type="text/javascript">
+      import Instascan from '@mathewparet/instascan'
+      var scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
+      scanner.addListener('scan', function (content, image) {
+        console.log(content);
+      });
+
+      Instascan.Camera.getCameras().then(function (cameras) {
+        if (cameras.length > 0) {
+          scanner.start(cameras[0]);
+        }
+      });
+    </script>
 </div>
