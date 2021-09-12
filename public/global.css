@@ -353,3 +353,40 @@ h3 {
 	margin-right: 3vw;
 	height: 3.47vw;
 }
+
+.divdonar{
+	height: 17.78vw;
+	background-color: #fff;
+	padding: 0 4.72vw;
+	width: 90.56vw;
+}
+
+.divdonarnombre{
+	width: 70vw;
+	height: 17.78vw;
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.h3donarnombre{
+	color: rgb(189,52,62);
+	margin-bottom: 0.5vw;
+}
+
+.h3donarlema{
+	color: rgb(152,152,152);
+	font-weight: 400;
+}
+
+.divdonaricono{
+	width: 11.94vw;
+	height: 17.78vw;
+	display: block;
+	float: left;
+	background-image: url(donar.png);
+	background-repeat: no-repeat;
+	background-size: 9vw 9vw;
+	background-position: 0 center;
+}

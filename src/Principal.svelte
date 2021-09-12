@@ -9,8 +9,15 @@
 </script>
 
 <div class="divprincipal">
-	<div class="divbienvenida"><h3 class="h3bien">¡Bienvenido, yapero!</h3></div>
+	<div class="divbienvenida"><h3 class="h3bien">&#161;Bienvenido, yapero&#33;</h3></div>
 	<div class="divsaldo">
 		<button on:click={() => numero(4)} class="botonsaldo"><img class="imgojo" src="ojo.svg" alt="botonsaldo"/>Mostrar Saldo</button>
+	</div>
+	<div class="divdonar">
+		<div class="divdonaricono"></div>
+		<div class="divdonarnombre">
+			<h3 class="h3donarnombre">VIDAWASI PERÚ</h3>
+			<h3 class="h3donarlema">CONSTRUYAMOS VIDA</h3>
+		</div>
 	</div>
 </div>
