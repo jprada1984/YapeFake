@@ -4,6 +4,8 @@ import { push } from "svelte-spa-router";
 
 	export let name;
 
+	name = "QR";
+
 	let clave = "";
 
 	function numero(numi){

@@ -1,4 +1,7 @@
 <script>
+
+	import { push } from "svelte-spa-router";
+
     let things = [
 		{ id: 1, color: 'darkblue' },
 		{ id: 2, color: 'indigo' },
@@ -6,12 +9,16 @@
 		{ id: 4, color: 'salmon' },
 		{ id: 5, color: 'gold' }
 	];
+
+	function iraqr(){
+		push('/Camara');
+	}
 </script>
 
 <div class="divprincipal">
 	<div class="divbienvenida"><h3 class="h3bien">&#161;Bienvenido, yapero&#33;</h3></div>
 	<div class="divsaldo">
-		<button on:click={() => numero(4)} class="botonsaldo"><img class="imgojo" src="ojo.svg" alt="botonsaldo"/>Mostrar Saldo</button>
+		<button class="botonsaldo"><img class="imgojo" src="ojo.svg" alt="botonsaldo"/>Mostrar Saldo</button>
 	</div>
 	<div class="divdonar">
 		<div class="divdonaricono"></div>
@@ -22,7 +29,7 @@
 			</div>
 		</div>
 		<div class="divdonarboton">
-			<button on:click={() => numero(4)} class="botondonar">Donar</button>
+			<button class="botondonar">Donar</button>
 		</div>
 	</div>
 	<div class="divmovi">
@@ -136,10 +143,10 @@
 	</div>
 	<div class="divprifooter">
 		<div class="divesca">
-			<button on:click={() => numero(4)} class="botonesca"><img class="imgqr" src="qr.svg" alt="botonescanear"/>Escanear QR</button>
+			<button on:click={iraqr} class="botonesca"><img class="imgqr" src="qr.svg" alt="botonescanear"/>Escanear QR</button>
 		</div>
 		<div class="divyapear">
-			<button on:click={() => numero(4)} class="botonyapear"><img class="imgflecha" src="flecha.svg" alt="botonyapear"/>Yapear</button>
+			<button class="botonyapear"><img class="imgflecha" src="flecha.svg" alt="botonyapear"/>Yapear</button>
 		</div>
 	</div>
 </div>

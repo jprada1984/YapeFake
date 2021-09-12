@@ -2,10 +2,12 @@
 	import Router, {location, link} from 'svelte-spa-router';
 	import Login from './Login.svelte';
 	import Principal from './Principal.svelte';
+	import Camara from './Camara.svelte';
 
 	const routes = {
 		'/': Login,
    		'/Principal/': Principal,
+		'/Camara/': Camara,
     	'*': Login
 	};
 
