@@ -334,7 +334,10 @@ h3 {
 	font-weight: 500;
 	color: rgb(255,255,255);
 	margin: 0;
-	display: block;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
 	background-color: rgb(140,61,153);
 	border-radius: 1.94vw;
 	border: 0;
@@ -460,4 +463,93 @@ h3 {
 .h3vertodo{
 	font-size: 3.6vw;
 	color: rgb(36,192,181);
+}
+
+.divprifooter{
+	height: 18.89vw;
+	background-color: #fff;
+	padding: 0 4.72vw;
+	width: 90.56vw;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.divesca{
+	display: flex;
+	float: left;
+	align-items: center;
+	width: 45.28vw;
+	height: 18.89vw;
+}
+
+.divyapear{
+	display: flex;
+	float: right;
+	justify-content: right;
+	align-items: center;
+	width: 45.28vw;
+	height: 18.89vw;
+}
+
+.botonesca{
+	width: 41.66vw;
+	padding: 3.8vw 0;
+	font-size: 3.6vw;
+	font-weight: 500;
+	color: rgb(36,192,181);
+	margin: 0;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	background-color: rgb(255,255,255);
+	border-radius: 1.94vw;
+	box-sizing: border-box;
+	border: 0.5vw solid rgb(36,192,181);
+}
+
+.botonesca:active{
+	background-color: #823291;
+}
+
+.botonesca:not(:disabled):active {
+	background-color: #823291;
+}
+
+.imgqr{
+	width: 4.44vw;
+	margin-right: 3vw;
+	height: 4.44vw;
+}
+
+.botonyapear{
+	width: 41.66vw;
+	padding: 3.8vw 0;
+	font-size: 3.6vw;
+	font-weight: 500;
+	color: rgb(255,255,255);
+	margin: 0;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	background-color: rgb(36,192,181);
+	border-radius: 1.94vw;
+	box-sizing: border-box;
+	border: 0.5vw solid rgb(36,192,181);
+}
+
+.botonyapear:active{
+	background-color: #823291;
+}
+
+.botonyapear:not(:disabled):active {
+	background-color: #823291;
+}
+
+.imgflecha{
+	width: 4.44vw;
+	margin-right: 3vw;
+	height: 4.44vw;
 }
