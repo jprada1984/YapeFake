@@ -1,7 +1,8 @@
 <script>
     import { onMount } from 'svelte';
 
-    let opts = {
+    onMount(async () => {
+        let opts = {
         // Whether to scan continuously for QR codes. If false, use scanner.scan() to manually scan.
         // If true, the scanner emits the "scan" event when a QR code is scanned. Default true.
         continuous: true,
@@ -31,9 +32,8 @@
         // Only applies to continuous mode. The period, in rendered frames, between scans. A lower scan period
         // increases CPU usage but makes scan response faster. Default 1 (i.e. analyze every frame).
         scanPeriod: 5
-    };
+        };
 
-	onMount(async () => {
 		let scanner = new Instascan.Scanner(opts);
         scanner.addListener('scan', function (content) {
             console.log(content);
