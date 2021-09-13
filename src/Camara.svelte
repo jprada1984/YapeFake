@@ -58,6 +58,7 @@
 <div class="divcamara">
     <video height="100%" id="preview"></video>
     <div class="divcamaratexto">
+        <div class="divcamaraover"></div>
         <h3>Coloque un código de barras en el interior del rectángulo del visor para escanear.</h3>
     </div>
 </div>

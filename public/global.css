@@ -646,4 +646,23 @@ h3 {
 .divcamaratexto h3{
 	font-size: 3.8vw;
 	font-weight: 400;
+	color: #fff;
+}
+
+.divcamaraover{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("over.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: left;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.divcamararaya{
+	width: 452px;
+	height: 676px
 }
