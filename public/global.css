@@ -647,22 +647,29 @@ h3 {
 	font-size: 3.8vw;
 	font-weight: 400;
 	color: #fff;
+	z-index: 11;
 }
 
 .divcamaraover{
 	width: 100vw;
 	height: 100vh;
-	background-image: url("over.svg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	min-width: 100vw;
+	min-height: 100vh;
+	object-fit: cover;
 	text-align: left;
 	display: block;
 	position: fixed;
+	z-index: 10;
 	top: 0;
 	left: 0;
 }
 
-.divcamararaya{
-	width: 452px;
-	height: 676px
+.divlinea{
+	display: block;
+	position: fixed;
+	top: 50%;
+	left: calc(19vw);
+	width: 62vw;
+	height: 2px;
+	background-color: #742284;
 }

@@ -45,7 +45,7 @@
         });
         Instascan.Camera.getCameras().then(function (cameras) {
             if (cameras.length > 0) {
-                scanner.start(cameras[2]);
+                scanner.start(cameras[0]);
             } else {
                 console.error('No cameras found.');
             }
@@ -58,7 +58,8 @@
 <div class="divcamara">
     <video height="100%" id="preview"></video>
     <div class="divcamaratexto">
-        <div class="divcamaraover"></div>
         <h3>Coloque un código de barras en el interior del rectángulo del visor para escanear.</h3>
+        <img class="divcamaraover" alt="imagecover" src="over.svg"/>
+        <div class="divlinea"></div>
     </div>
 </div>
