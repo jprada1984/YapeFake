@@ -671,5 +671,6 @@ h3 {
 	left: calc(19vw);
 	width: 62vw;
 	height: 2px;
-	background-color: #742284;
+	background-color: rgb(161, 31, 31);;
+	--animate-duration: 1.5s;
 }
