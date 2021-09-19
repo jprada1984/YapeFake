@@ -41,12 +41,10 @@ label {
 input, button, select, textarea {
 	font-family: inherit;
 	font-size: inherit;
-	-webkit-padding: 0.4em 0;
-	padding: 0.4em;
-	margin: 0 0 0.5em 0;
+	padding: 0;
+	margin: 0;
 	box-sizing: border-box;
-	border: 1px solid #ccc;
-	border-radius: 2px;
+	border: 0;
 }
 
 input:disabled {
@@ -675,7 +673,7 @@ h3 {
 	--animate-duration: 1.5s;
 }
 
-.divyapear{
+.divyapearmain{
 	background-color: #fff;
 	overflow: hidden;
 	display: block;
@@ -683,8 +681,156 @@ h3 {
 	border-top-left-radius: 2.1vw;
 	border-top-right-radius: 2.1vw;
 	box-sizing: border-box;
-	padding: 4.17vw 5.84vw;
 	margin: 0;
+	padding: 0;
 	height: 100vh;
 	width: 100vw;
+}
+
+.divyapeartop{
+	margin-top: 4.86vw;
+	padding-left: 5.97vw;
+	padding-right: 5.97vw;
+	height: 17.5vw;
+	display: block;
+	width: 88.06vw;
+	float: left;
+}
+
+.divyapeariz{
+	display: block;
+	float: left;
+	width: 4.72vw;
+	height: 4.72vw;
+}
+
+.botonatrasya{
+	width: 4.72vw;
+	height: 4.72vw;
+	color: rgb(255,255,255);
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color: rgb(255,255,255);
+	background-image: url("atras.svg");
+	background-repeat: no-repeat;
+	background-size: 3.48vw 4.72vw;
+	background-position: 0 0;
+	box-sizing: border-box;
+}
+
+.botonatrasya:active{
+	background-color: rgb(255,255,255);
+}
+
+.botonatrasya:not(:disabled):active {
+	background-color: rgb(255,255,255);
+}
+
+.divyapearme{
+	display: block;
+	float: left;
+	height: 4.72vw;
+	width: 78.62vw;
+}
+
+.divyapearme h3{
+	height: 4.72vw;
+	width: 78.62vw;
+	color: rgb(33,46,65);
+	margin: 0;
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	align-items: center;
+}
+
+.divyapearde{
+	display: block;
+	float: right;
+	height: 4.72vw;
+	width: 4.72vw;
+}
+
+.botonequisya{
+	width: 4.72vw;
+	height: 4.72vw;
+	color: rgb(255,255,255);
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color: rgb(255,255,255);
+	background-image: url("equis.svg");
+	background-repeat: no-repeat;
+	background-size: 4.72vw 4.72vw;
+	box-sizing: border-box;
+}
+
+.botonequisya:active{
+	background-color: rgb(255,255,255);
+}
+
+.botonequisya:not(:disabled):active {
+	background-color: rgb(255,255,255);
+}
+
+.divnombreyapear{
+	margin-top: 8.61vw;
+	display: block;
+	float: left;
+	width: 100%;
+	height: 4.17vw;
+}
+
+.nombreyapear{
+	margin: 0;
+	padding: 0;
+	color: rgb(116,34,132);
+}
+
+.divyapearmedio{
+	vertical-align: middle;
+	align-content: center;
+	display: table-cell;
+	position: relative;
+	height: calc(100vh - 49.44vw);
+	box-sizing: border-box;
+	width: 100vw;
+}
+
+.divyapeardown{
+	display: block;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	height: 27.08vw;
+	padding-left: 5.97vw;
+	padding-right: 5.97vw;
+	box-sizing: border-box;
+}
+
+.inputdesc{
+	width: 88.06vw;
+	height: 6.95vw;
+	color: rgb(39,45,59);
+	text-align: center;
+	font-size: 3.89vw;
+	font-weight: 500;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border-bottom: 0.5vw solid rgb(166,165,170);
+}
+
+.inputdesc:focus{
+	outline: 0;
+	border: 0;
+	border-bottom: 0.5vw solid rgb(193,166,201);
+}
+
+.inputdesc:active{
+	outline: 0;
+	border: 0;
+	border-bottom: 0.5vw solid rgb(193,166,201);
 }
