@@ -37,7 +37,7 @@
     </div>
     <div class="divyapearmedio">
         <span class="spanmonto">S/</span>
-        <span  tabindex="-1" on:focus="true" class="inputmonto" name="inputmontoya" contenteditable="true">{yapemonto}</span>
+        <span  tabindex="-1" class="inputmonto" name="inputmontoya" contenteditable="true">{yapemonto}</span>
     </div>
     <div class="divyapeardown">
         <input type="text" class="inputdesc" name="inputdes" placeholder="Agregar mensaje" />
