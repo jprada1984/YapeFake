@@ -34,5 +34,6 @@
     </div>
     <div class="divyapeardown">
         <input type="text" class="inputdesc" name="inputdes" placeholder="Agregar mensaje" />
+        <button on:click={subbotonyapearya} class="botonyapearya">Yapear</button>
     </div>
 </div>
