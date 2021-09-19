@@ -1,9 +1,10 @@
 <script>
     import { push } from "svelte-spa-router";
     import { QRcodigo } from './stores.js';
+    import { onMount } from 'svelte';
 
     export let nombreya = new String ("");
-    export let yapemonto = "0";
+    export let yapemonto = "";
 
     nombreya = $QRcodigo;
     nombreya = nombreya.slice(14,-16);
@@ -19,8 +20,12 @@
 	}
 
     function subbotonyapearya(){
-		push('/Principal');
+		alert(yapemonto);
 	}
+
+    onMount(async () => {
+        document.getElementById("inputmonto").focus();
+    });
 </script>
 <div class="divyapearmain">
     <div class="divyapeartop">
@@ -37,7 +42,7 @@
     </div>
     <div class="divyapearmedio">
         <span class="spanmonto">S/</span>
-        <span  tabindex="-1" class="inputmonto" name="inputmontoya" contenteditable="true">{yapemonto}</span>
+        <input value="{yapemonto}" oninput="this.style.width = ((this.value.length + 1) * 10.5) + 'vw';" type="number" class="inputmonto" id="inputmonto" placeholder="0" />
     </div>
     <div class="divyapeardown">
         <input type="text" class="inputdesc" name="inputdes" placeholder="Agregar mensaje" />
