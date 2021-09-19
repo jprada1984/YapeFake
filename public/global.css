@@ -867,3 +867,40 @@ h3 {
 .botonyapearya:not(:disabled):active {
 	background-color: rgb(0,166,146);
 }
+
+.inputmonto{
+	width: 45.83vw;
+	height: 13.88vw;
+	color: rgb(114,32,130);
+	text-align: left;
+	font-size: 19.44vw;
+	font-weight: 500;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border: 0
+}
+
+.inputmonto::placeholder{
+	color: rgb(114,32,130);
+	font-size: 12.77vw;
+	font-weight: 500;
+}
+
+.inputmonto:focus{
+	outline: 0;
+	border: 0;
+}
+
+.inputmonto:active{
+	outline: 0;
+	border: 0;
+}
+
+.spanmonto{
+	font-size: 7.63vw;
+	height: 13.88vw;
+	color: rgb(199,167,206);
+	vertical-align: 8vw;
+	
+}

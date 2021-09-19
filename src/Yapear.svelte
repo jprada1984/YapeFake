@@ -3,9 +3,11 @@
     import { QRcodigo } from './stores.js';
 
     export let nombreya = new String ("");
+    export let yapemonto = "0";
+
     nombreya = $QRcodigo;
     nombreya = nombreya.slice(14,-16);
-    nombreya = nombreya.slice(parseInt(nombreya.slice(0,2))+2+25)
+    nombreya = nombreya.slice(parseInt(nombreya.slice(0,2))+2+25);
     nombreya = nombreya.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.substring(1)).join(' ');
 
     function botonatras(){
@@ -13,6 +15,10 @@
 	}
 
     function botonequis(){
+		push('/Principal');
+	}
+
+    function subbotonyapearya(){
 		push('/Principal');
 	}
 </script>
@@ -30,7 +36,8 @@
         <div class="divnombreyapear"><h3 class="nombreyapear">{nombreya}</h3></div>
     </div>
     <div class="divyapearmedio">
-        pon monto
+        <span class="spanmonto">S/</span>
+        <span  tabindex="-1" on:focus="true" class="inputmonto" name="inputmontoya" contenteditable="true">{yapemonto}</span>
     </div>
     <div class="divyapeardown">
         <input type="text" class="inputdesc" name="inputdes" placeholder="Agregar mensaje" />

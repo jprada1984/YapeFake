@@ -1,6 +1,5 @@
 <script>
-import { push } from "svelte-spa-router";
-
+	import { push } from "svelte-spa-router";
 
 	export let name;
 
@@ -9,7 +8,7 @@ import { push } from "svelte-spa-router";
 	let clave = "";
 
 	function numero(numi){
-		clave = clave + numi
+		clave = clave + numi;
 		if (clave.length == 6) {
 			if (clave == "123456") {
 				push('/Principal');
