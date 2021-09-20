@@ -32,14 +32,24 @@
         // Construimos el formato de salida
         let fechas = fecha.getDate() + ' ' + meses[fecha.getMonth()] + ' ' + fecha.getFullYear() + ' - ';
         
-        if (fecha.getHours() > 12){
-            fechas = fechas + (fecha.getHours()-12) + ':' + fecha.getMinutes() + ' pm'
+        let minutos = "0";
+
+        if (fecha.getMinutes() < 10){
+            minutos = '0' + fecha.getMinutes();
         }else{
-            fechas = fechas + fecha.getHours() + ':' + fecha.getMinutes() + ' am'
+            minutos = fecha.getMinutes();
+        }
+        
+        if (fecha.getHours() > 12){
+            fechas = fechas + (fecha.getHours()-12) + ':' + minutos + ' pm';
+        }else if(fecha.getHours() == 0){
+            fechas = fechas + '12' + ':' + minutos + ' am';
+        }else{
+            fechas = fechas + fecha.getHours() + ':' + minutos + ' am';
         }
 
         if (yapedescri != ""){
-            fechas = fechas + ' - ' + yapedescri
+            fechas = fechas + ' - ' + yapedescri;
         }
 
         PriDaFecha.set(fechas);
