@@ -1,7 +1,7 @@
 <svelte:head>
-    <meta name="Apple-mobile-web-app-status-bar-style" content="#505050">
-	<meta name="theme-color" content="#505050">
-	<meta name="msapplication-TileColor" content="#505050">
+    <meta name="Apple-mobile-web-app-status-bar-style" content="#4a1972">
+	<meta name="theme-color" content="#4a1972">
+	<meta name="msapplication-TileColor" content="#4a1972">
 </svelte:head>
 
 <script>
