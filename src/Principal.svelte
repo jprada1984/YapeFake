@@ -46,6 +46,7 @@
 		</div>
 	</div>
 	<div class="divprilista">
+		{#if $PriDaNombre !== ""}
 		<div class="divitem">
 			<div class="divdes">
 				<div class="divdes1">
@@ -57,6 +58,7 @@
 				<h3 class="{$PriDaPone}">{$PriDaMonto}</h3>
 			</div>
 		</div>
+		{/if}
 		{#each items as item}
 		<div class="divitem">
 			<div class="divdes">

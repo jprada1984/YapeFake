@@ -22,7 +22,6 @@
 	}
 
     function subbotonyapearya(){
-		alert(yapemonto);
         PriDaNombre.set(nombreya);
 
         // Creamos array con los meses del año
@@ -55,6 +54,7 @@
         PriDaFecha.set(fechas);
         PriDaMonto.set('- S/ ' + yapemonto.toFixed(2).toString());
         PriDaPone.set('h3montone');
+        push('/Yapeado');
 	}
 
     function oninputyapear(){

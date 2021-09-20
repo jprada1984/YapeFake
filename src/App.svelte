@@ -4,12 +4,14 @@
 	import Principal from './Principal.svelte';
 	import Camara from './Camara.svelte';
 	import Yapear from './Yapear.svelte';
+	import Yapeado from './Yapeado.svelte';
 
 	const routes = {
 		'/': Login,
    		'/Principal/': Principal,
 		'/Camara/': Camara,
 		'/Yapear/': Yapear,
+		'/Yapeado/': Yapeado,
     	'*': Login
 	};
 
