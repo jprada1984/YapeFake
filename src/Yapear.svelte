@@ -1,10 +1,11 @@
 <script>
     import { push } from "svelte-spa-router";
-    import { QRcodigo } from './stores.js';
+    import { QRcodigo, PriDaNombre, PriDaFecha, PriDaMonto, PriDaPone } from './stores.js';
     import { onMount } from 'svelte';
 
     export let nombreya = new String ("");
-    export let yapemonto = "";
+    export let yapemonto = new Float32Array;
+    export let yapedescri = "";
     export let inputdisabled = "disabled";
 
     nombreya = $QRcodigo;
@@ -22,6 +23,28 @@
 
     function subbotonyapearya(){
 		alert(yapemonto);
+        PriDaNombre.set(nombreya);
+
+        // Creamos array con los meses del año
+        const meses = ['Ene.', 'Feb.', 'Mar.', 'Abr.', 'May.', 'Jun.', 'Jul.', 'Ago.', 'Sep.', 'Oct.', 'Nov.', 'Dic.'];
+        // Creamos el objeto fecha instanciándolo con la clase Date
+        const fecha = new Date();
+        // Construimos el formato de salida
+        let fechas = fecha.getDate() + ' ' + meses[fecha.getMonth()] + ' ' + fecha.getFullYear() + ' - ';
+        
+        if (fecha.getHours() > 12){
+            fechas = fechas + (fecha.getHours()-12) + ':' + fecha.getMinutes() + ' pm'
+        }else{
+            fechas = fechas + fecha.getHours() + ':' + fecha.getMinutes() + ' am'
+        }
+
+        if (yapedescri != ""){
+            fechas = fechas + ' - ' + yapedescri
+        }
+
+        PriDaFecha.set(fechas);
+        PriDaMonto.set('- S/ ' + yapemonto.toFixed(2).toString());
+        PriDaPone.set('h3montone');
 	}
 
     function oninputyapear(){
@@ -55,7 +78,7 @@
         <div class="puedesyapear">Puedes Yapear hasta S/500 diarios</div>
     </div>
     <div class="divyapeardown">
-        <input type="text" class="inputdesc" name="inputdes" placeholder="Agregar mensaje" />
+        <input type="text" bind:value="{yapedescri}" class="inputdesc" name="inputdes" placeholder="Agregar mensaje" />
         <button disabled="{inputdisabled}" on:click={subbotonyapearya} class="botonyapearya">Yapear</button>
     </div>
 </div>

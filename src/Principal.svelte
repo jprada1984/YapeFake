@@ -1,13 +1,18 @@
 <script>
 
 	import { push } from "svelte-spa-router";
+	import { PriDaNombre, PriDaFecha, PriDaMonto, PriDaPone } from './stores.js';
 
-    let things = [
-		{ id: 1, color: 'darkblue' },
-		{ id: 2, color: 'indigo' },
-		{ id: 3, color: 'deeppink' },
-		{ id: 4, color: 'salmon' },
-		{ id: 5, color: 'gold' }
+    let items = [
+		{ nombre: "Maribel Condori Carpio", fecha: '19 Sep. 2021 - 9:20 pm - Vino', monto: '- S/ 13.00', pone: 'h3montone'},
+		{ nombre: "Ana Vega Fernández", fecha: '10 Sep. 2021 - 9:33 am - Empanada', monto: '- S/ 4.50', pone: 'h3montone'},
+		{ nombre: "Alberto Sánchez Zapata", fecha: '26 Ago. 2021 - 7:25 pm - Six Cerveza', monto: '- S/ 21.00', pone: 'h3montone'},
+		{ nombre: "Jose Luis Quispe Flores Carpio", fecha: '17 Ago. 2021 - 10:50 am', monto: 'S/ 30.00', pone: 'h3monto'},
+		{ nombre: "Jimena García Rojas", fecha: '10 Ago. 2021 - 10:38 am', monto: 'S/ 10.00', pone: 'h3monto'},
+		{ nombre: "Juan Carlos Castillo Pérez", fecha: '2 Ago. 2021 - 10:28 am - Pizza', monto: '- S/ 38.00', pone: 'h3montone'},
+		{ nombre: "Alberto Sánchez Zapata", fecha: '29 Jul. 2021 - 8:34 pm - Whisky', monto: '- S/ 22.00', pone: 'h3montone'},
+		{ nombre: "Sofía Milagros Vargas Castro", fecha: '23 Jul. 2021 - 8:23 am - Pago', monto: '- S/ 25.00', pone: 'h3montone'},
+		{ nombre: "María Carmen Romero Salazar", fecha: '23 Jul. 2021 - 12:46 pm', monto: 'S/ 50.00', pone: 'h3monto'}
 	];
 
 	function iraqr(){
@@ -44,102 +49,27 @@
 		<div class="divitem">
 			<div class="divdes">
 				<div class="divdes1">
-					<h3 class="h3nombre">Maribel Estela Condori</h3>
-					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
+					<h3 class="h3nombre">{$PriDaNombre}</h3>
+					<h3 class="h3fecha">{$PriDaFecha}</h3>
 				</div>
 			</div>
 			<div class="divmonto">
-				<h3 class="h3montone">- S/ 15.50</h3>
+				<h3 class="{$PriDaPone}">{$PriDaMonto}</h3>
 			</div>
 		</div>
+		{#each items as item}
 		<div class="divitem">
 			<div class="divdes">
 				<div class="divdes1">
-					<h3 class="h3nombre">Maribel Estela Condori</h3>
-					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
+					<h3 class="h3nombre">{item.nombre}</h3>
+					<h3 class="h3fecha">{item.fecha}</h3>
 				</div>
 			</div>
 			<div class="divmonto">
-				<h3 class="h3montone">- S/ 15.50</h3>
+				<h3 class="{item.pone}">{item.monto}</h3>
 			</div>
 		</div>
-		<div class="divitem">
-			<div class="divdes">
-				<div class="divdes1">
-					<h3 class="h3nombre">Maribel Estela Condori</h3>
-					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
-				</div>
-			</div>
-			<div class="divmonto">
-				<h3 class="h3monto">S/ 16.50</h3>
-			</div>
-		</div>
-		<div class="divitem">
-			<div class="divdes">
-				<div class="divdes1">
-					<h3 class="h3nombre">Maribel Estela Condori</h3>
-					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
-				</div>
-			</div>
-			<div class="divmonto">
-				<h3 class="h3montone">- S/ 15.50</h3>
-			</div>
-		</div>
-		<div class="divitem">
-			<div class="divdes">
-				<div class="divdes1">
-					<h3 class="h3nombre">Maribel Estela Condori</h3>
-					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
-				</div>
-			</div>
-			<div class="divmonto">
-				<h3 class="h3monto">S/ 16.50</h3>
-			</div>
-		</div>
-		<div class="divitem">
-			<div class="divdes">
-				<div class="divdes1">
-					<h3 class="h3nombre">Maribel Estela Condori</h3>
-					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
-				</div>
-			</div>
-			<div class="divmonto">
-				<h3 class="h3montone">- S/ 15.50</h3>
-			</div>
-		</div>
-		<div class="divitem">
-			<div class="divdes">
-				<div class="divdes1">
-					<h3 class="h3nombre">Maribel Estela Condori</h3>
-					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
-				</div>
-			</div>
-			<div class="divmonto">
-				<h3 class="h3monto">S/ 16.50</h3>
-			</div>
-		</div>
-		<div class="divitem">
-			<div class="divdes">
-				<div class="divdes1">
-					<h3 class="h3nombre">Maribel Estela Condori</h3>
-					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
-				</div>
-			</div>
-			<div class="divmonto">
-				<h3 class="h3montone">- S/ 15.50</h3>
-			</div>
-		</div>
-		<div class="divitem">
-			<div class="divdes">
-				<div class="divdes1">
-					<h3 class="h3nombre">Maribel Estela Condori</h3>
-					<h3 class="h3fecha">26 Ago. 2021 - 9:20 pm - Vino</h3>
-				</div>
-			</div>
-			<div class="divmonto">
-				<h3 class="h3monto">S/ 16.50</h3>
-			</div>
-		</div>
+		{/each}
 	</div>
 	<div class="divprifooter">
 		<div class="divesca">

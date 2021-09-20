@@ -574,24 +574,25 @@ h3 {
 
 .divdes{
 	height: 17.5vw;
-	width: 60vw;
+	width: 70vw;
 	display: flex;
 	float: left;
 	align-items: center;
 }
 
 .divdes1{
-	width: 60vw;
+	width: 70vw;
 	text-align: left;
 	vertical-align: middle;
 }
 
 .divmonto{
 	height: 17.5vw;
-	width: 30.56vw;
+	width: 20.56vw;
 	display: flex;
 	float: right;
-	align-items: center;
+	align-items:center;
+	text-align: right;
 	justify-content: right;
 	margin-right: 4.72vw;
 }
@@ -610,11 +611,13 @@ h3 {
 
 .h3montone{
 	font-size: 3.6vw;
+	float: right;
 	color: rgb(176,18,76);
 }
 
 .h3monto{
 	font-size: 3.6vw;
+	float: right;
 	color: rgb(34,45,65);
 }
 
