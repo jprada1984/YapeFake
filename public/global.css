@@ -874,7 +874,7 @@ h3 {
 	color: rgb(114,32,130);
 	text-align: left;
 	font-size: 19.44vw;
-	font-weight: 500;
+	font-weight: 400;
 	padding: 0;
 	margin: 0;
 	outline: 0;
@@ -891,7 +891,7 @@ h3 {
 .inputmonto::placeholder{
 	color: rgb(114,32,130);
 	font-size: 19.44vw;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 .inputmonto:focus{
@@ -907,7 +907,32 @@ h3 {
 .spanmonto{
 	font-size: 7.63vw;
 	height: 13.88vw;
+	font-weight: 600;
 	color: rgb(199,167,206);
 	vertical-align: 8vw;
 	
+}
+
+.puedesyapear{
+	color: rgb(109,109,109);
+	width: 53.19vw;
+	height: 4.84vw;
+	padding-top: 1vw;
+	margin-top: 6.38vw;
+	margin-left: 23.405vw;
+	background-color: rgb(248,248,252);
+	font-size: 3.05vw;
+	border-radius: 2.92vw;
+}
+
+.divyapeadomain{
+	background-color: #fff;
+	overflow: hidden;
+	display: block;
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
 }

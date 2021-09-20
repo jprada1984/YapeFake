@@ -52,6 +52,7 @@
     <div class="divyapearmedio">
         <span class="spanmonto">S/</span>
         <input required bind:value="{yapemonto}" maxlength="6" on:input="{oninputyapear}" oninput="this.style.width = ((this.value.length + 1) * 10.5) + 'vw';" type="number" class="inputmonto" id="inputmonto" placeholder="0" />
+        <div class="puedesyapear">Puedes Yapear hasta S/500 diarios</div>
     </div>
     <div class="divyapeardown">
         <input type="text" class="inputdesc" name="inputdes" placeholder="Agregar mensaje" />
