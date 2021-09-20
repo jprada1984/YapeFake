@@ -5,6 +5,7 @@
 
     export let nombreya = new String ("");
     export let yapemonto = "";
+    export let inputdisabled = "disabled";
 
     nombreya = $QRcodigo;
     nombreya = nombreya.slice(14,-16);
@@ -22,6 +23,14 @@
     function subbotonyapearya(){
 		alert(yapemonto);
 	}
+
+    function oninputyapear(){
+        if (yapemonto > 0){
+            inputdisabled="";
+        }else{
+            inputdisabled="disabled"
+        }
+    }
 
     onMount(async () => {
         document.getElementById("inputmonto").focus();
@@ -42,10 +51,10 @@
     </div>
     <div class="divyapearmedio">
         <span class="spanmonto">S/</span>
-        <input value="{yapemonto}" oninput="this.style.width = ((this.value.length + 1) * 10.5) + 'vw';" type="number" class="inputmonto" id="inputmonto" placeholder="0" />
+        <input required bind:value="{yapemonto}" maxlength="6" on:input="{oninputyapear}" oninput="this.style.width = ((this.value.length + 1) * 10.5) + 'vw';" type="number" class="inputmonto" id="inputmonto" placeholder="0" />
     </div>
     <div class="divyapeardown">
         <input type="text" class="inputdesc" name="inputdes" placeholder="Agregar mensaje" />
-        <button on:click={subbotonyapearya} class="botonyapearya">Yapear</button>
+        <button disabled="{inputdisabled}" on:click={subbotonyapearya} class="botonyapearya">Yapear</button>
     </div>
 </div>
