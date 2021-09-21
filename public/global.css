@@ -963,7 +963,7 @@ h3 {
 	border-bottom: 0.93vw solid transparent;
 	border-image-source: url(border.png);
 	border-image-slice: 33.333%;
-	border-image-width: 2.2vw;
+	border-image-width:2.2vw;
 	border-image-repeat: round;
 }
 
