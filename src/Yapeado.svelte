@@ -10,7 +10,10 @@
     import { onMount } from 'svelte';
 
     function subbotoncompartir(){
-        alert("Hola");
+        bodymovin.goToAndStop(54,true);
+        html2canvas(document.querySelector("#capture")).then(canvas => {
+        document.body.appendChild(canvas)
+        });
     }
 
     function subbotoninicio(){
@@ -33,6 +36,7 @@
 </script>
 
 <div class="divyapeadomain">
+    <div id="capture" class="divdegrado">
     <div class="divyapeadotop">
         <div id ="bm" class="divyapeadotopcell">
         </div>
@@ -52,6 +56,7 @@
             {/if}
         </div>
         <div class="divyapeadomediodown"></div>
+    </div>
     </div>
     <div class="divyapeadoabajo">
         <div class="latbot">1</div>

@@ -8,7 +8,7 @@
 
 	import { push } from "svelte-spa-router";
 	import { PriDaNombre, PriDaFecha, PriDaMonto, PriDaPone } from './stores.js';
-
+	
     let items = [
 		{ nombre: "Maribel Condori Carpio", fecha: '19 Sep. 2021 - 9:20 pm - Vino', monto: '- S/ 13.00', pone: 'h3montone'},
 		{ nombre: "Ana Vega Fernández", fecha: '10 Sep. 2021 - 9:33 am - Empanada', monto: '- S/ 4.50', pone: 'h3montone'},

@@ -940,6 +940,10 @@ h3 {
 	width: 100vw;
 }
 
+.divdegrado{
+	background: linear-gradient(to bottom, rgb(74,25,114), rgb(116,34,132) 40%);
+}
+
 .divyapeadotop{
 	width: 100vw;
 	height: 35.42vw;
