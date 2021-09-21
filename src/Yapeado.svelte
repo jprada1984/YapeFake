@@ -73,8 +73,8 @@
             <div class="divletrasdes"><h3 class="letrasdescri">{$SecDaDes}</h3></div>
             {/if}
         </div>
-        <!--div class="divyapeadomediodown"></div-->
     </div>
+    <div class="divyapeadomediodown"></div>
     </div>
     <div class="divyapeadoabajo">
         <div class="latbot">1</div>
