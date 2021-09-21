@@ -9,22 +9,31 @@
     import { PriDaNombre, PriDaFecha, PriDaMonto, PriDaPone, SecDaMonto, SecDaFecha, SecDaDes } from './stores.js';
     import { onMount } from 'svelte';
 
-    function subbotoncompartir(){
-        bodymovin.goToAndStop(54,true);
-        html2canvas(document.querySelector("#capture")).then(canvas => {
-        document.body.appendChild(canvas)
-        });
-
-        const canvas = await html2canvas(document.querySelector("#capture"));
-        const dataUrl = canvas.toDataURL();
+    async function shareCanvas() {
+        const canvas = await html2canvas(document.getElementById('capture'));
+        const dataUrl = canvasElement.toDataURL('imgage/png');
         const blob = await (await fetch(dataUrl)).blob();
-        const filesArray: File[] = [new File([blob], 'htmldiv.png', { type: blob.type, lastModified: new Date().getTime() })];
+        const filesArray = [
+            new File(
+                [blob],
+                'animation.png',
+                {
+                    type: blob.type,
+                    lastModified: new Date().getTime()
+                }
+            )
+        ];
         const shareData = {
             files: filesArray,
         };
-        navigator.share(shareData as any).then(() => {
-            console.log('Shared successfully');
-        });
+        navigator.share(shareData);
+        alert("envio");
+    }
+    
+    function subbotoncompartir(){
+        bodymovin.goToAndStop(54,true);
+        shareCanvas();
+        alert("hodla");
     }
 
     function subbotoninicio(){
