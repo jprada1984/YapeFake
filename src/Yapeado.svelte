@@ -11,7 +11,7 @@
 
     async function shareCanvas() {
         const canvas = await html2canvas(document.getElementById('capture'));
-        const dataUrl = canvasElement.toDataURL('imgage/png');
+        const dataUrl = canvas.toDataURL('imgage/png');
         const blob = await (await fetch(dataUrl)).blob();
         const filesArray = [
             new File(
@@ -27,13 +27,11 @@
             files: filesArray,
         };
         navigator.share(shareData);
-        alert("envio");
     }
     
     function subbotoncompartir(){
         bodymovin.goToAndStop(54,true);
         shareCanvas();
-        alert("hodla");
     }
 
     function subbotoninicio(){
