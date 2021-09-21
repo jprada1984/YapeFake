@@ -942,6 +942,7 @@ h3 {
 
 .divdegrado{
 	background: linear-gradient(to bottom, rgb(74,25,114), rgb(116,34,132) 40%);
+	margin-bottom: 7.77vw;
 }
 
 .divyapeadotop{
@@ -959,14 +960,20 @@ h3 {
 .divyapeadomedio{
 	width: 70.14vw;
 	margin-left: 14.93vw;
+	border-top: 0.93vw solid transparent;
+	border-bottom: 0.93vw solid transparent;
+	border-image-source: url(border.png);
+	border-image-slice: 33%;
+	border-image-width: 2.2vw;
+	border-image-repeat: round;
 }
 
 .divyapeadomediotop{
 	height: 0.93vw;
 	background-image: url("triar.svg");;
-	background-size: contain;
+	background-size: 2.40vw 1vw;
 	background-repeat: repeat-x;
-	background-position: center bottom;
+	background-position: center top;
 }
 
 .divyapeadomediomedio{
@@ -1043,10 +1050,6 @@ h3 {
 
 .divletrasdes{
 	padding-bottom: 7.05vw;
-}
-
-.divyapeadoabajo{
-	margin-top: 7.77vw;
 }
 
 .latbot{

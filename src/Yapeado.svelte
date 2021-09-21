@@ -60,7 +60,7 @@
         </div>
     </div>
     <div class="divyapeadomedio">
-        <div class="divyapeadomediotop"></div>
+        <!--div class="divyapeadomediotop"></div-->
         <div class="divyapeadomediomedio">
             <h3 class="letrayapeaste">¡Yapeaste!</h3>
             <div class="montodiv">
@@ -73,7 +73,7 @@
             <div class="divletrasdes"><h3 class="letrasdescri">{$SecDaDes}</h3></div>
             {/if}
         </div>
-        <div class="divyapeadomediodown"></div>
+        <!--div class="divyapeadomediodown"></div-->
     </div>
     </div>
     <div class="divyapeadoabajo">
