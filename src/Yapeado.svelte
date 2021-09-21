@@ -14,6 +14,17 @@
         html2canvas(document.querySelector("#capture")).then(canvas => {
         document.body.appendChild(canvas)
         });
+
+        const canvas = await html2canvas(document.querySelector("#capture"));
+        const dataUrl = canvas.toDataURL();
+        const blob = await (await fetch(dataUrl)).blob();
+        const filesArray: File[] = [new File([blob], 'htmldiv.png', { type: blob.type, lastModified: new Date().getTime() })];
+        const shareData = {
+            files: filesArray,
+        };
+        navigator.share(shareData as any).then(() => {
+            console.log('Shared successfully');
+        });
     }
 
     function subbotoninicio(){
