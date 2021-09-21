@@ -8,22 +8,6 @@
     import { push } from "svelte-spa-router";
     import { PriDaNombre, PriDaFecha, PriDaMonto, PriDaPone, SecDaMonto, SecDaFecha, SecDaDes } from './stores.js';
     import { onMount } from 'svelte';
-    import { LottiePlayer } from '@lottiefiles/svelte-lottie-player';
-
-  let controlsLayout = [
-    'previousFrame',
-    'playpause',
-    'stop',
-    'nextFrame',
-    'progress',
-    'frame',
-    'loop',
-    'spacer',
-    'background',
-    'snapshot',
-    'zoom',
-    'info',
-  ];
 
     function subbotoncompartir(){
         alert("Hola");
@@ -36,21 +20,22 @@
     function subbotonyapearte(){
         push('/Camara');
     }
+
+    onMount(async () => {
+        var animation = bodymovin.loadAnimation({
+        container: document.getElementById('bm'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'https://assets7.lottiefiles.com/packages/lf20_4xt4sirg.json'
+        })
+    });
 </script>
 
 <div class="divyapeadomain">
     <div class="divyapeadotop">
-        <LottiePlayer
-            src="https://assets4.lottiefiles.com/packages/lf20_7i5gcnnn.json"
-            autoplay="{true}"
-            loop="{true}"
-            controls="{false}"
-            renderer="svg"
-            background="transparent"
-            height="{600}"
-            width="{600}"
-            controlsLayout="{controlsLayout}"
-        />
+        <div id ="bm" class="divyapeadotopcell">
+        </div>
     </div>
     <div class="divyapeadomedio">
         <div class="divyapeadomediotop"></div>

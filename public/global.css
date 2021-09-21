@@ -941,7 +941,15 @@ h3 {
 }
 
 .divyapeadotop{
-	height: 35.41vw;
+	width: 100vw;
+	height: 35.42vw;
+	display: block;
+}
+
+.divyapeadotopcell{
+	display: block;
+	height: 18.75vw;
+	padding-top: 9.07vw;
 }
 
 .divyapeadomedio{
