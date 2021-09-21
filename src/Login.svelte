@@ -11,7 +11,7 @@
 
 	name = "QR";
 
-	let clave = "";
+	export let clave = "";
 
 	function numero(numi){
 		clave = clave + numi;
@@ -29,10 +29,14 @@
 		clave = clave.substring(0, clave.length - 1);
 	}
 
+	function ayudaboton(){
+		alert("Esta webapp fue realizada para fines recreativos y de aprendizaje, descrubir una vulnerabilidad en Yape que incluye el nombre en el código QR.\n\nSi recibes pagos por medio de Códigos QR siempre verificar la transacción.\n\nClave:123456\n\nEl código fuente en mi perfil de github ;)\n\nLos logos y nombres comerciales no son de mi propiedad.");
+	}
+
 </script>
 
 	<div class="divlogin">
-		<div class="divquestion"><img class="imgquestion" alt="question" src="/question.svg" height="36px" width="36px" /></div>
+		<div class="divquestion"><img on:click={ayudaboton} class="imgquestion" alt="question" src="/question.svg" height="36px" width="36px" /></div>
 		<div class="divqrpri">
 			<div class="divqrsec"></div>
 		</div>
