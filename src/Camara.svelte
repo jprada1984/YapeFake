@@ -1,3 +1,9 @@
+<svelte:head>
+    <meta name="Apple-mobile-web-app-status-bar-style" content="#000000">
+	<meta name="theme-color" content="#000000">
+	<meta name="msapplication-TileColor" content="#000000">
+</svelte:head>
+
 <script>
     import { onMount } from 'svelte';
     import { push } from "svelte-spa-router";

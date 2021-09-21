@@ -1,3 +1,9 @@
+<svelte:head>
+    <meta name="Apple-mobile-web-app-status-bar-style" content="#742284">
+	<meta name="theme-color" content="#742284">
+	<meta name="msapplication-TileColor" content="#742284">
+</svelte:head>
+
 <script>
 
 	import { push } from "svelte-spa-router";

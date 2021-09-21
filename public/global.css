@@ -929,7 +929,7 @@ h3 {
 }
 
 .divyapeadomain{
-	background-color: #fff;
+	background: linear-gradient(to bottom, rgb(74,25,114), rgb(116,34,132) 25%);
 	overflow: hidden;
 	display: block;
 	border: 0;
@@ -938,4 +938,182 @@ h3 {
 	padding: 0;
 	height: 100vh;
 	width: 100vw;
+}
+
+.divyapeadotop{
+	height: 35.41vw;
+}
+
+.divyapeadomedio{
+	width: 70.14vw;
+	margin-left: 14.93vw;
+}
+
+.divyapeadomediotop{
+	height: 0.93vw;
+	background-image: url("triar.svg");;
+	background-size: contain;
+	background-repeat: repeat-x;
+	background-position: center bottom;
+}
+
+.divyapeadomediomedio{
+	background-color: #fff;
+}
+
+.divyapeadomediodown{
+	height: 0.93vw;
+	background-image: url("triab.svg");;
+	background-size: contain;
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+
+.letrayapeaste{
+	padding-top: 7.72vw;
+	font-size: 5.69vw;
+	color: rgb(114,32,130);
+}
+
+.montodiv{
+	padding-top: 5.90vw;
+	padding-bottom: 5.5vw;
+}
+
+.spanmontoya{
+	font-size: 5.83vw;
+	height: 13.88vw;
+	font-weight: 600;
+	color: rgb(199,167,206);
+	vertical-align: 5.5vw;
+	
+}
+
+.inputmontoya{
+	width: 10.6vw;
+	height: 14.88vw;
+	color: rgb(114,32,130);
+	text-align: left;
+	font-size: 13.61vw;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border: 0;
+}
+
+.letrasnombre{
+	font-size: 4.86vw;
+	padding-left: 4.72vw;
+	padding-right: 4.72vw;
+	font-weight: 500;
+	color: rgb(33,46,65);
+	border: 0;
+	margin: 0;
+	padding-bottom: 1.3vw;
+}
+
+.letrasfecha{
+	font-size: 3.19vw;
+	color: rgb(109,109,109);
+	padding-bottom: 9.5vw;
+	font-weight: 400
+}
+
+.letrasdescri{
+	font-size: 3.19vw;
+	padding: 3.47vw 4.72vw;
+	color: rgb(33,46,65);
+	font-weight: 400;
+	border-top: 0.3vw solid rgb(240,240,240);
+	border-bottom: 0.3vw solid rgb(240,240,240);
+}
+
+.divletrasdes{
+	padding-bottom: 7.05vw;
+}
+
+.divyapeadoabajo{
+	margin-top: 7.77vw;
+}
+
+.latbot{
+	width: 19.86vw;
+	float: left;
+	color: rgb(116,34,132);
+}
+
+.mediobot{
+	width: 20.09vw;
+	float: left;
+	display: table-cell;
+}
+
+.botoncompartir{
+	width: 12.2vw;
+	height: 12.2vw;
+	color: rgb(255,255,255);
+	background-color: rgb(140,61,153);
+	border-radius: 2.77vw;
+	border: 0;
+	background-image: url("comp.svg");
+	background-repeat: none;
+	background-position: center center;
+	background-size: 12.2vw 12.2vw;
+}
+
+.botoncompartir:active{
+	background-color: rgb(147, 85, 156);
+}
+
+.botoncompartir:not(:disabled):active {
+	background-color: rgb(147, 85, 156);
+}
+
+.botoninicioya{
+	width: 12.2vw;
+	height: 12.2vw;
+	color: rgb(255,255,255);
+	background-color: rgb(140,61,153);
+	border-radius: 2.77vw;
+	border: 0;
+	background-image: url("inicio.svg");
+	background-repeat: none;
+	background-position: center center;
+	background-size: 12.2vw 12.2vw;
+}
+
+.botoninicioya:active{
+	background-color: rgb(147, 85, 156);
+}
+
+.botoninicioya:not(:disabled):active {
+	background-color: rgb(147, 85, 156);
+}
+
+.botonyapearte{
+	width: 12.2vw;
+	height: 12.2vw;
+	color: rgb(255,255,255);
+	background-color: rgb(15, 203, 179);
+	border-radius: 2.77vw;
+	border: 0;
+	background-image: url("yape.svg");
+	background-repeat: none;
+	background-position: center center;
+	background-size: 12.2vw 12.2vw;
+}
+
+.botonyapearte:active{
+	background-color: rgb(0,166,146);
+}
+
+.botonyapearte:not(:disabled):active {
+	background-color: rgb(0,166,146);
+}
+
+.textoabajoboton{
+	color: #fff;
+	padding-top: 2.2vw;
+	font-size: 2.77vw;
 }

@@ -1,6 +1,12 @@
+<svelte:head>
+    <meta name="Apple-mobile-web-app-status-bar-style" content="#742284">
+	<meta name="theme-color" content="#742284">
+	<meta name="msapplication-TileColor" content="#742284">
+</svelte:head>
+
 <script>
     import { push } from "svelte-spa-router";
-    import { QRcodigo, PriDaNombre, PriDaFecha, PriDaMonto, PriDaPone } from './stores.js';
+    import { QRcodigo, PriDaNombre, PriDaFecha, PriDaMonto, PriDaPone, SecDaMonto, SecDaFecha, SecDaDes } from './stores.js';
     import { onMount } from 'svelte';
 
     export let nombreya = new String ("");
@@ -47,6 +53,8 @@
             fechas = fechas + fecha.getHours() + ':' + minutos + ' am';
         }
 
+        SecDaFecha.set(fechas);
+
         if (yapedescri != ""){
             fechas = fechas + ' - ' + yapedescri;
         }
@@ -54,6 +62,10 @@
         PriDaFecha.set(fechas);
         PriDaMonto.set('- S/ ' + yapemonto.toFixed(2).toString());
         PriDaPone.set('h3montone');
+
+        SecDaMonto.set(yapemonto);
+        SecDaDes.set(yapedescri);
+
         push('/Yapeado');
 	}
 
