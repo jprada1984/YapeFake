@@ -1,19 +1,4 @@
-# Svelte Example
-
-This directory is a brief example of a [Svelte](https://svelte.dev/) site that can be deployed with Vercel and zero-configuration. If you need to use API Routes, we recommend using our [SvelteKit example](https://github.com/vercel/vercel/tree/main/examples/sveltekit).
-
-## Deploy Your Own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/svelte&template=svelte)
-
-_Live Example: https://svelte.examples.vercel.com_
-
-## Getting Started
-
-```bash
-npx degit sveltejs/template svelte-app
-npm install
-```
+Esta webapp fue realizada para fines recreativos y de aprendizaje, descrubir una vulnerabilidad en Yape que incluye el nombre en el código QR.\n\nSi recibes pagos por medio de Códigos QR siempre verificar la transacción.\n\nClave:123456\n\nEl código fuente en mi perfil de github ;)\n\nLos logos y nombres comerciales no son de mi propiedad.
 
 Then, start [Rollup](https://rollupjs.org):
 
