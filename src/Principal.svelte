@@ -3,6 +3,9 @@
 	<meta name="theme-color" content="#742284">
 	<meta name="msapplication-TileColor" content="#742284">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<script defer type="text/javascript" src="instascan.min.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js" integrity="sha512-srGxQe2w7s50+5/nNgEVKYtBm15zRylJwdjxYnGEZr3mmHFJKFjA/ImA2OKizVzoIDX8XISMHDI1+az9pnumbQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script defer type="text/javascript" src="html2canvas.min.js"></script>
 </svelte:head>
 
 <script>
