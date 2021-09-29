@@ -2,6 +2,7 @@
     <meta name="Apple-mobile-web-app-status-bar-style" content="#742284">
 	<meta name="theme-color" content="#742284">
 	<meta name="msapplication-TileColor" content="#742284">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </svelte:head>
 
 <script>
